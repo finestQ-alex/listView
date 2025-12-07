@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         // ArrayAdapter 선언
         ArrayAdapter<String> adapter = new ArrayAdapter<String>
-            (this, android.R.layout.simple_list_item_multiple_choice, movie);
-        list.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+            (this, android.R.layout.simple_list_item_multiple_choice, movie); // 기본형에서 체크박스형으로 변경
+        list.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE); // 다중선택 가능
         list.setAdapter(adapter); // 어레이 어댑터 적용
 
         // 클릭 리스너 작성
