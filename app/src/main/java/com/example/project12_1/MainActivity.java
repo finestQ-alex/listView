@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // 배열 만들기
         String[] movie = {"범죄와의 전젱", "신세계", "굿뉴스", "사생결단", "베테랑", "달콤한 인생",
-            "전설의 주먹", "시동", "범죄도시", "악인전", "남자가 사랑할 떄", "부당거래"};
+            "전설의 주먹", "시동", "범죄도시", "악인전", "남자가 사랑할 떄", "부당거래", "히트맨",
+            "위대한 개츠비", "거룩한 계보", "친구"};
 
         ListView list = (ListView) findViewById(R.id.listView);
 
